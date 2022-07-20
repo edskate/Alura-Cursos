@@ -1,0 +1,41 @@
+<meta charset="UTF-8">
+<script>
+    document.write(200 + 100 + 300 + 400/4);
+</script>
+
+<p>Robson criou o programa calculando_meu_gasto.html.
+ <br> A intenção do programa é somar o gasto de quatro viagens realizadas e calcular <br>
+   a média a fim de ter uma ideia aproximada de gastos para a próxima viagem. Para calcular <br>
+   a média aritmética ele precisa somar o valor de todas as viagens e dividir <br>
+   o total pela quantidade de viagens.</p> <br>
+   <p>Contudo, o programa, segundo ele, estava "louco" pois exibia na tela o valor 700, ou seja, um valor muito maior do que o gasto em cada mês.
+
+    Por que o programa apresenta um número tão acima do esperado? <br>
+     Crie um arquivo novo, <br>
+    o calculando_meu_gasto.html, e altere <br>
+    o programa de Robson para que ele calcule a média corretamente!</p>
+    <p>Na matemática operações de divisão e multiplicação são realizadas primeiro.
+       <br> O mesmo ocorre no universo da programação <br>
+        e esse fenômeno denomina-se Precedência entre operadores!</p>
+
+        <p>Sendo assim, o programa primeiro realizará a divisão 400/4 e <br>
+          o resultado disso é que será somado com o valor dos demais meses. br
+
+           Para resolver a situação, assim como na matemática, vamos usar parênteses para que <br>
+           a operação contida dentro deles seja primeiramente avaliada. br
+
+           Alterando o código de Robson temos o seguinte:</p>
+           <br>
+
+           <script>
+            document.write( (200 + 100 + 300 + 400) / 4);
+        </script>
+
+
+<p>Agora, a primeira operação <br>
+  o realizada será a soma (200 + 100 + 300 + 400) para que só então o resultado seja dividido por 4. <br>
+   O resultado correto deve ser 250.</p>
+
+   <button>Mas, um cálculo simples como esse pode ser feito por meio de calculadora? <br> Sim! Porém, entender
+     o que estamos fazendo é imprescindível para o que está por vir. <br>
+      Prepare-se!</button>

@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+    document.write( (200 + 100 + 300 + 400) / 4);
+</script>
+
+Quando usamos document.write para escrever no mundo HTML, ele não vai pular linha por padrão. <br>
+ Para isso, precisamos escrever no mundo HTML um <br>. Por exemplo: <br>
+
+<p> 10 Qual é o número?</p>
+<script>
+  document.write("18" + "2");
+</script>
+
+Veja que estamos usando o operador de soma envolvendo dois textos, ou melhor, duas strings. <br>
+ Nesse caso, o JavaScript irá concatenar, ou seja, juntar o texto antes do + com o que vier depois. <br>
+  Por isso o resultado final é "182" que será passado para document.write como parâmetro. <br>
+ É bom lembrar que primeiro o JavaScript avalia a operação antes de passar para o () da instrução. <br>
